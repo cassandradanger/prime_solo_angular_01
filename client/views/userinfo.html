@@ -1,0 +1,123 @@
+<!--<div class="container" ng-controller="WelcomeController">-->
+    <!--<div class="col-md-offest-2">-->
+        <!--<div>-->
+            <!--<h1>{{heading + message}}</h1>-->
+            <!--<input ng-model="name" type="text" placeholder="Enter your name here"></input>-->
+        <!--</div>-->
+        <!--<button ng-click="updateMessage()" class="btn">Hello</button>-->
+        <!--<button ng-click="goodbyeMessage()" class="btn">Goodbye</button>-->
+    <!--</div>-->
+<!--</div>-->
+
+<h1>Pick Your Team</h1>
+
+<div class="container-fluid" ng-controller="WelcomeController">
+    <ul>
+        <p>Goalies</p>
+        <li><button ng-click="crawford()" class="btn">Corey Crawford</button></li>
+        <li><button ng-click="bishop()" class="btn">Ben Bishop</button></li>
+        <li><button ng-click="lundqvist()" class="btn">Henrik Lundqvist</button></li>
+        <li><button ng-click="dubnyk()" class="btn">Devan Dubnyk</button></li>
+        <li><button ng-click="price()" class="btn">Carey Price</button></li>
+        <li><button ng-click="rinne()" class="btn">Pekka Rinne</button></li>
+    </ul>
+    </ul>
+
+    <ul>
+        <p>Left Defensemen</p>
+        <li><button ng-click="suter()" class="btn">Ryan Suter</button></li>
+        <li><button ng-click="subban()" class="btn">PK Subban</button></li>
+        <li><button ng-click="doughty()" class="btn">Drew Doughty</button></li>
+        <li><button ng-click="keith()" class="btn">Duncan Keith</button></li>
+        <li><button ng-click="dumba()" class="btn">Matt Dumba</button></li>
+        <li><button ng-click="shattenkirk()" class="btn">Kevin Shattenkirk</button></li>
+    </ul>
+
+    <ul>
+        <p>Right Defensemen</p>
+        <li><button ng-click="weber()" class="btn">Shea Weber</button></li>
+        <li><button ng-click="chara()" class="btn">Zdeno Chara</button></li>
+        <li><button ng-click="karlsson()" class="btn">Erik Karlsson</button></li>
+        <li><button ng-click="pietrangelo()" class="btn">Alex Pietrangelo</button></li>
+        <li><button ng-click="giordano()" class="btn">Mark Giordano</button></li>
+        <li><button ng-click="mcdonagh()" class="btn">Ryan McDonagh</button></li>
+    </ul>
+
+    <ul>
+        <p>Left Wings</p>
+        <li><button ng-click="ovechkin()" class="btn">Alex Ovechkin</button></li>
+        <li><button ng-click="sedin()" class="btn">Daniel Sedin</button></li>
+        <li><button ng-click="nash()" class="btn">Rick Nash</button></li>
+        <li><button ng-click="foligno()" class="btn">Nick Foligno</button></li>
+        <li><button ng-click="parise()" class="btn">Zach Parise</button></li>
+        <li><button ng-click="kreider()" class="btn">Chris Kreider</button></li>
+    </ul>
+
+    <ul>
+        <p>Centers</p>
+        <li><button ng-click="crosby()" class="btn">Sydney Crosby</button></li>
+        <li><button ng-click="toews()" class="btn">Jonathan Toews</button></li>
+        <li><button ng-click="kopitar()" class="btn">Anze Kopitar</button></li>
+        <li><button ng-click="stamkos()" class="btn">Steven Stamkos</button></li>
+        <li><button ng-click="getzlaf()" class="btn">Ryan Getzlaf</button></li>
+        <li><button ng-click="datsyuk()" class="btn">Pavel Datsyuk</button></li>
+    </ul>
+
+    <ul>
+        <p>Right Wings</p>
+        <li><button ng-click="kane()" class="btn">Patrick Kane</button></li>
+        <li><button ng-click="perry()" class="btn">Corey Perry</button></li>
+        <li><button ng-click="louis()" class="btn">Martin St. Louis</button></li>
+        <li><button ng-click="kessel()" class="btn">Phil Kessel</button></li>
+        <li><button ng-click="gaborik()" class="btn">Marian Gaborik</button></li>
+        <li><button ng-click="carter()" class="btn">Jeff Carter</button></li>
+    </ul>
+
+    <ul>
+        <p>Coaches</p>
+        <li><button ng-click="yeo()" class="btn">Mike Yeo</button></li>
+        <li><button ng-click="babcock()" class="btn">Mike Babcock</button></li>
+        <li><button ng-click="roy()" class="btn">Patrick Roy</button></li>
+        <li><button ng-click="therrien()" class="btn">Michel Therrien</button></li>
+        <li><button ng-click="quenneville()" class="btn">Joel Quenneville</button></li>
+        <li><button ng-click="sutter()" class="btn">Darryl Sutter</button></li>
+    </ul>
+
+    <br/>
+    <div class="container col-md-offset-3 col-md-6 well" id="final">
+        <table>
+            <h1>Your Team</h1>
+            <tr>
+                <th>Left Defense</th>
+                <th>Goalie</th>
+                <th>Right Defense</th>
+            </tr>
+            <tr>
+                <td>{{defense}}<br/> <img ng-src="{{image_d}}"/></td>
+                <td>{{goalie}}<br/> <img ng-src="{{image_g}}"/></td>
+                <td>{{defense1}}<br/> <img ng-src="{{image_d1}}"/></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Left Wing</td>
+                <th>Center</td>
+                <th>Right Wing</td>
+            </tr>
+            <tr>
+                <td>{{left}}<br/> <img ng-src="{{image_lw}}"/></td>
+                <td>{{center}}<br/> <img ng-src="{{image_center}}"/></td>
+                <td>{{right}}<br/> <img ng-src="{{image_rw}}"/></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Coach</th>
+            </tr>
+            <tr>
+                <td>{{coach}}<br/> <img ng-src="{{image_coach}}"/></td>
+            </tr>
+        </table>
+    </div>
+</div>
+

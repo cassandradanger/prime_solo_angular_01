@@ -1,8 +1,78 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 10px 50px 50px 50px;
+  font: Helvetica, Arial, sans-serif;
+  background-image: url('ice.jpg');
 }
 
 a {
   color: #00B7FF;
+}
+
+ul{
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+}
+
+li{
+  font: 12px
+  text-align: center;
+}
+
+p{
+  font: 20px;
+  font-weight: 500;
+  font-family: Helvetica;
+  color: darkblue;
+  text-align: top;
+  padding-bottom: 3px
+}
+
+.btn{
+  margin-bottom: 5px;
+  width: 100%
+}
+
+.container-fluid{
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: 40px;
+}
+
+table, td, th {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 5px;
+}
+
+th {
+  height: 10px;
+  width: 33%;
+  color: darkblue;
+  font-size: 20px;
+}
+
+td{
+  height: 122px;
+  width: 33%
+}
+
+tr{
+  width: 33%;
+}
+
+#final{
+  background-image: url('Puck.jpeg');
+}
+
+img{
+  padding-top: 2px;
 }
