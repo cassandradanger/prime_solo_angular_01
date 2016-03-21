@@ -3,7 +3,7 @@ console.log("Script Loaded");
 var myApp = angular.module('myApp', []);
 //javascript declaration of a new variable, calling upon angular to let it know that it's creating a new module
 
-myApp.controller('WelcomeController', ["$scope", function($scope) {
+myApp.controller('WelcomeController', ["$scope", "$http", function($scope, $http) {
     $scope.number_g = 0;
     $scope.number_rw = 0;
     $scope.number_lw = 0;
@@ -14,6 +14,30 @@ myApp.controller('WelcomeController', ["$scope", function($scope) {
     $scope.start = 26;
     $scope.heading = "Pick Your Team! You have: ";
     $scope.points = "26 points";
+    //$scope.goalie = [];
+    //$scope.left_defense = [];
+    //$scope.right_defense = [];
+    //$scope.left_wing = [];
+    //$scope.center = [];
+    //$scope.right_wing = [];
+    //
+    //$scope.grabinfo = function(){
+    //    return $http.get('/info').then(function(response){
+    //        if(response.status !== 200){
+    //            throw new Error('failed to get api');
+    //        }
+    //        $scope.goalie = response.data.goalie;
+    //        $scope.left_defense = response.data.left_defense;
+    //        $scope.right_defense = response.data.right_defense;
+    //        $scope.left_wing = response.data.left_wing;
+    //        $scope.center = response.data.center;
+    //        $scope.right_wing = response.data.right_wing;
+    //        $scope.coach = response.data.coach;
+    //
+    //        console.log($scope.goalie);
+    //        return response.data;
+    //    })
+    //}
     ////////////////////////////////////////////////////////////////////
     $scope.crawford = function() {
         $scope.goalie = "Corey Crawford";
@@ -97,7 +121,7 @@ myApp.controller('WelcomeController', ["$scope", function($scope) {
 
     };
     $scope.chara = function() {
-        $scope.defense1 = "Zdeno Zhara";
+        $scope.defense1 = "Zdeno Chara";
         $scope.image_d1 = "stylesheets/right_defense/chara.png";
         $scope.number_d1 = 4;
         $scope.points = "" + ($scope.start - $scope.number_g - $scope.number_d - $scope.number_d1 - $scope.number_lw - $scope.number_rw - $scope.number_center - $scope.number_coach) + " points";
@@ -279,46 +303,4 @@ myApp.controller('WelcomeController', ["$scope", function($scope) {
         $scope.points = "" + ($scope.start - $scope.number_g - $scope.number_d - $scope.number_d1 - $scope.number_lw - $scope.number_rw - $scope.number_center - $scope.number_coach) + " points";
     };
     ///////////////////////////////////////////////////////////////////////////////////
-
-
-
-
 }]);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

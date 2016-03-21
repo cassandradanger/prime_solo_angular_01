@@ -1,0 +1,65 @@
+{
+  "goalies": [
+    {"name": "Corey Crawford" , "points": 4 , "imageURL": "/stylesheets/goalies/crawford.png"},
+    {"name": "Ben Bishop" , "points": 4 , "imageURL": "/stylesheets/goalies/bishop.png"},
+    {"name": "Henrik Lundqvist" , "points": 5 , "imageURL": "/stylesheets/goalies/lundqvist.png"},
+    {"name": "Devan Dubnyk" , "points": 3 , "imageURL": "/stylesheets/goalies/dubnyk.png"},
+    {"name": "Carey Price" , "points": 5 , "imageURL": "/stylesheets/goalies/price.png"},
+    {"name": "Pekka Rinne" , "points": 3 , "imageURL": "/stylesheets/goalies/rinne.png"}
+  ];
+
+  "left_defense": [
+    {"name": "Ryan Suter" , "points": 3 , "imageURL": "/stylesheets/left_defense/suter.png"},
+    {"name": "PK Subban" , "points": 5 , "imageURL": "/stylesheets/left_defense/subban.png"},
+    {"name": "Drew Doughty" , "points": 5 , "imageURL": "/stylesheets/left_defense/doughty.png"},
+    {"name": "Duncan Keith" , "points": 4 , "imageURL": "/stylesheets/left_defense/keith.png"},
+    {"name": "Matt Dumba" , "points": 4 , "imageURL": "/stylesheets/left_defense/dumba.png"},
+    {"name": "Kevin Shattenkirk" , "points": 3 , "imageURL": "/stylesheets/left_defense/shattenkirk.png"}
+  ];
+
+  "right_defense": [
+    {"name": "Shea Weber" , "points": 5 , "imageURL": "/stylesheets/right_defense/weber.png"},
+    {"name": "Zdeno Chara" , "points": 4 , "imageURL": "/stylesheets/right_defense/chara.png"},
+    {"name": "Erik Karlsson" , "points": 3 , "imageURL": "/stylesheets/right_defense/karlsson.png"},
+    {"name": "Alex Pietrangelo" , "points": 4 , "imageURL": "/stylesheets/right_defense/pietrangelo.png"},
+    {"name": "Mark Giordana" , "points": 5 , "imageURL": "/stylesheets/right_defense/giordano.png"},
+    {"name": "Ryan McDonagh" , "points": 3 , "imageURL": "/stylesheets/right_defense/mcdonagh.png"}
+  ];
+
+  "left_wing": [
+    {"name": "Alex Ovechkin" , "points": 5 , "imageURL": "/stylesheets/left_wing/ovechkin.png"},
+    {"name": "Daniel Sedin" , "points": 3 , "imageURL": "/stylesheets/left_wing/sedin.png"},
+    {"name": "Rick Nash" , "points": 3 , "imageURL": "/stylesheets/left_wing/nash.png"},
+    {"name": "Nick Foligno" , "points": 4 , "imageURL": "/stylesheets/left_wing/foligno.png"},
+    {"name": "Zach Parise" , "points": 5 , "imageURL": "/stylesheets/left_wing/parise.png"},
+    {"name": "Chris Kreider" , "points": 4 , "imageURL": "/stylesheets/left_wing/kreider.png"}
+  ];
+
+  "center": [
+    {"name": "Sydney Crosby" , "points": 4 , "imageURL": "/stylesheets/center/crosby.png"},
+    {"name": "Jonathan Toews" , "points": 5 , "imageURL": "/stylesheets/center/toews.png"},
+    {"name": "Anze Kopitar" , "points": 3 , "imageURL": "/stylesheets/center/kopitar.png"},
+    {"name": "Steven Stamkos" , "points": 4 , "imageURL": "/stylesheets/center/stamkos.png"},
+    {"name": "Ryan Getzlaf" , "points": 5 , "imageURL": "/stylesheets/center/getzlaf.png"},
+    {"name": "Pavel Datsyuk" , "points": 3 , "imageURL": "/stylesheets/center/datsyuk.png"}
+  ];
+
+  "right_wing": [
+    {"name": "Patrick Kane" , "points": 5 , "imageURL": "/stylesheets/right_wing/kane.png"},
+    {"name": "Corey Perry" , "points": 5 , "imageURL": "/stylesheets/right_wing/perry.png"},
+    {"name": "Martin St. Louis" , "points": 4 , "imageURL": "/stylesheets/right_wing/louis.png"},
+    {"name": "Phil Kessel" , "points": 3 , "imageURL": "/stylesheets/right_wing/kessel.png"},
+    {"name": "Marian Gaborik" , "points": 3 , "imageURL": "/stylesheets/right_wing/gaborik.png"},
+    {"name": "Jeff Carter" , "points": 4 , "imageURL": "/stylesheets/right_wing/carter.png"}
+  ];
+
+  "coach": [
+    {"name": "Mike Yeo" , "points": 3 , "imageURL": "/stylesheets/coach/yeo.png"},
+    {"name": "Mike Babcock" , "points": 5 , "imageURL": "/stylesheets/coach/babcock.png"},
+    {"name": "Patrick Roy" , "points": 3 , "imageURL": "/stylesheets/coach/roy.png"},
+    {"name": "Michel Therrien" , "points": 4 , "imageURL": "/stylesheets/coach/therrien.png"},
+    {"name": "MJoel Quenneville" , "points": 5 , "imageURL": "/stylesheets/coach/quenneville.png"},
+    {"name": "Darryl Sutter" , "points": 4 , "imageURL": "/stylesheets/coach/sutter.png"}
+  ];
+};
+
