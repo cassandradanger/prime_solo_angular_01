@@ -3,8 +3,8 @@ body {
   font: Helvetica, Arial, sans-serif;
   background-image: url('ice.jpg');
   -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
-  zoom: 0.90npm ; /* Other non-webkit browsers */
-  zoom: 90%; /* Webkit browsers */
+  zoom: 0.95npm ; /* Other non-webkit browsers */
+  zoom: 95%; /* Webkit browsers */
 }
 
 a {
